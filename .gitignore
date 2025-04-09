@@ -1,40 +1,40 @@
 # Dependency folders
 node_modules/
 
-# Build output
-dist/
+# # Build output
+# dist/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# # Environment variables
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# # Log files
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
 
-# OS Generated files
-.DS_Store
-Thumbs.db
+# # OS Generated files
+# .DS_Store
+# Thumbs.db
 
-# IDE / Editor Specific
-.vscode/
-.idea/
+# # IDE / Editor Specific
+# .vscode/
+# .idea/
 
-# Vite Cache
-.vite/
+# # Vite Cache
+# .vite/
 
-# Local Development tools
-*.local
+# # Local Development tools
+# *.local
 
-# Optional: lock files (if you use only one package manager)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# # Optional: lock files (if you use only one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 
-# Optional: MacOS Trash
-.Trashes
+# # Optional: MacOS Trash
+# .Trashes

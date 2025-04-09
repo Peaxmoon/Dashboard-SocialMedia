@@ -29,7 +29,7 @@ function ProductDetails() {
                 setLoading(false);
             }
         };
-        
+
         if (id) {
             fetchProduct();
         }
@@ -57,6 +57,11 @@ function ProductDetails() {
                     <div className="product-details-category">
                         Category: {product.category}
                     </div>
+                </div>
+                <div>
+                    <Link to="/reviews" className="view-details-btn">
+                        Review </Link>
+                    <Outlet />
                 </div>
             </div>
         </div>

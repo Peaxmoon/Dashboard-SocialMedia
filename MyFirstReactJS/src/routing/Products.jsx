@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './products.css';
 
-function Products() {
+function Products() {``
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -72,3 +72,22 @@ function Products() {
 }
 
 export default Products
+
+export function ReviewPage() {
+    return (
+        <div className="review-page">
+            <Link to={"../"}>Go Back</Link>
+            <h2>Product Reviews</h2>
+            <p>This is the review page.</p>
+        </div>
+    );
+}
+export function OverViewPage() {
+    return (
+        <div className="overview-page">
+            <Link to={"../"}>Go Back</Link>
+            <h2>Product Overview</h2>
+            <p>This is the overview page.</p>
+        </div>
+    );
+}
