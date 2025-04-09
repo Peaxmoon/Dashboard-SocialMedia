@@ -1,0 +1,7 @@
+
+For running continious without 
+node --watch script.js
+
+if simple node run then
+node file_name.js
+eg:- node script.js

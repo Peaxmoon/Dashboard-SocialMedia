@@ -1,0 +1,25 @@
+.heroSecHeading {
+    color: red;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.lekhero {
+    font-size: 30px;
+}
+
+.sujjal {
+    color:hsl(from red 100 90 40)
+}
+
+.namecolor {
+    color: blue;
+}
+
+.heroSecHeding {
+    color: green;
+}
+
+.herSubHeading {
+    color: yellow;
+}
