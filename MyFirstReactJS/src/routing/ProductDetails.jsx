@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link, Outlet } from 'react-router-dom';
 import './ProductDetails.css';
 
 function ProductDetails() {
@@ -58,9 +58,9 @@ function ProductDetails() {
                         Category: {product.category}
                     </div>
                 </div>
-                <div>
-                    <Link to="/reviews" className="view-details-btn">
-                        Review </Link>
+                <div className="product-navigation">
+                    <Link to="overview" className="view-details-btn">Overview</Link>
+                    <Link to="reviews" className="view-details-btn">Reviews</Link>
                     <Outlet />
                 </div>
             </div>
