@@ -26,6 +26,8 @@ export default function SingleProductPage() {
   useEffect(() => {
     getData();
   }, []);
+  const isInTabPage = location?.pathname?.split("/").filter(Boolean).at(-1);
+  console.log(isInTabPage == "review" ? "../" : "#");
   return (
     <div>
       <h1>Single Product Page</h1>
@@ -52,7 +54,7 @@ export default function SingleProductPage() {
           <Link to="review">review</Link>
         </button>
         <button>
-          <Link to="overview">overview</Link>
+          <Link to={isInTabPage == "review" ? './' : "#"}>overview</Link>
         </button>
       </div>
       <Outlet />
