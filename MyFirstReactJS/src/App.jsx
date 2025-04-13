@@ -10,7 +10,7 @@ function App() {
       {/* <Navbar /> */}
       {/* <RoutesComponentonent /> */}
       {/* <AppRoutes /> */}
-      <Outleet />
+      {/* <Outleet /> */}
     </BrowserRouter>
   )
 }

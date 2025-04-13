@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function ProjectApp2() {
-  return (
-    <div>ProjectApp2</div>
+  const [length, setLength] = useState(8);  return (
+    <div>
+      <h1>Password Generator</h1>
+      <h1>Length : {length}</h1>
+    </div>
   )
 }
 // 4;24x

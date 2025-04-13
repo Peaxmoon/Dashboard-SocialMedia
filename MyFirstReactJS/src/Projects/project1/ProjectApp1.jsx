@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 // full project on 4:14
 function ProjectApp1() {
-    const [color, setColor] = useState("pink");
+    const [color, setColor] = useState("white");
 
     return (
         <div className='w-full h-screen duration-200 ' style={{ backgroundColor: color }}>
@@ -10,6 +10,8 @@ function ProjectApp1() {
                     <button onClick={() => setColor("red")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "red"}}>Red</button>
                     <button onClick={() => setColor("green")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "green"}}>Green</button>
                     <button onClick={() => setColor("blue")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "blue"}}>Blue</button>
+                    <button onClick={() => setColor("yellow")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "yellow"}}>yellow</button>
+                    <button onClick={() => setColor("lightblue")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "lightblue"}}>lightblue</button>
                 </div>
             </div>
         </div>

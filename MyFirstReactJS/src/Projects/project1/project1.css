@@ -1,0 +1,12 @@
+.active {
+  font-weight: bold;
+  color: white;
+  transition: all .8s ease;
+}
+
+.active:hover {
+  text-shadow: 0 0 5px #a97900,
+               0 0 10px #d2b200,
+               0 0 15px #f6ff00;
+  transform: scale(1.05); /* optional zoom */
+}
