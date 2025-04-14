@@ -5,5 +5,9 @@ BackGround color Changer
 
 Project 2
 useEffect()
+useEffect is a react hook that lets you synchronie a componennt with and external system
+useCallback() - Hook that lets you cache a function definition between re-renders
+const cachedFn = useCallback(fn, dependencies)
 Password Generator
+
 
