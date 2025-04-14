@@ -15,6 +15,7 @@ export default function ProjectApp() {
         <ul className='flex w-[100%] justify-center gap-4 p-4'>
           <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project1">Project 1</NavLink></li>
           <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project2">Project 2</NavLink></li>
+          <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project3">Project 3</NavLink></li>
         </ul>
         </div>
       </nav>

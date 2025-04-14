@@ -38,6 +38,7 @@ function ProjectApp2() {
 
   return (
     <div className='bg-black-400 w-full h-full'>
+      <h1 className='self-center  text-4xl'>Password Generator</h1>
       <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 pt-4 pb-4 my-8 text-orange-500 bg-gray-800'>
         <div className='bg-white flex shadow rounded-lg overflow-hidden mb-4'>
           <input type="text"

@@ -11,7 +11,14 @@ function ProjectApp1() {
                     <button onClick={() => setColor("green")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "green"}}>Green</button>
                     <button onClick={() => setColor("blue")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "blue"}}>Blue</button>
                     <button onClick={() => setColor("yellow")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "yellow"}}>yellow</button>
-                    <button onClick={() => setColor("lightblue")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "lightblue"}}>lightblue</button>
+                    <button onClick={() => setColor("purple")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "purple"}}>purple</button>
+                    <button onClick={() => setColor("lightgreen")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "lightgreen"}}>lightgreen</button>
+                    <button onClick={() => setColor("grey")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "grey"}}>grey</button>
+                    <button onClick={() => setColor("brown")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "brown"}}>brown</button>
+                    <button onClick={() => setColor("pink")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "pink"}}>pink</button>
+                    <button onClick={() => setColor("skyblue")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "skyblue"}}>skyblue</button>
+                    <button onClick={() => setColor("orange")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "orange"}}>orange</button>
+                    <button onClick={() => setColor("darkred")} className='outline-none px-4 py-1 rounded-full text-white shadow-lg' style={{backgroundColor: "darkred"}}>Crimson</button>
                 </div>
             </div>
         </div>
