@@ -10,4 +10,11 @@ useCallback() - Hook that lets you cache a function definition between re-render
 const cachedFn = useCallback(fn, dependencies)
 Password Generator
 
+Project 3
+useId() 
+useid is a React Hook for generating uqnique IDs that can be passed to accessiblility attributes.
+
+
+
+
 

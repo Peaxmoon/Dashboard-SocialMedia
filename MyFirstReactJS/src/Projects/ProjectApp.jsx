@@ -16,6 +16,7 @@ export default function ProjectApp() {
           <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project1">Project 1</NavLink></li>
           <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project2">Project 2</NavLink></li>
           <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project3">Project 3</NavLink></li>
+          <li><NavLink className={({isActive}) => isActive ? "active" : ""} to="/project4">Project 4</NavLink></li>
         </ul>
         </div>
       </nav>
